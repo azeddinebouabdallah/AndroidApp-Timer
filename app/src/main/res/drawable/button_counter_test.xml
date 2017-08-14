@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+
+    <gradient android:startColor="@color/colorButtonCounterStart"
+        android:endColor="@color/colorButtonCounterEnd"
+        android:angle="90"></gradient>
+    <corners android:radius="@dimen/buttonRaduis"></corners>
+
+</shape>
+    </item>
+    <item android:state_hovered="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle"
+            >
+
+            <gradient android:startColor="@color/colorButtonCounterEnd"
+                android:endColor="@color/colorButtonCounterStart"
+                android:angle="90"></gradient>
+            <corners android:radius="@dimen/buttonRaduis"></corners>
+
+        </shape>
+
+
+    </item>
+
+</selector>

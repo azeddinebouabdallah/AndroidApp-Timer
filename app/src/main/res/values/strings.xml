@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Counter</string>
+    <string name="title">Start Count</string>
+    <string name="homeButtonMenu">Home</string>
+    <string name="exitButtonMenu">Exit</string>
+</resources>
